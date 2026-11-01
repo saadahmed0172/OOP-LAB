@@ -34,7 +34,7 @@ namespace OOP_PROJECT.ADMIN
             Console.WriteLine("6.VIEW ADMINS INFO");
             Console.WriteLine("7.SEE ALL USERS ");
             Console.WriteLine("8.BACK");
-            Console.WriteLine("SELECT OPTION FROM(1-8): ");
+            Console.WriteLine("ENTER YOUR DESIRED OPTION");
             string adminopt = Console.ReadLine();
             return adminopt;
 
