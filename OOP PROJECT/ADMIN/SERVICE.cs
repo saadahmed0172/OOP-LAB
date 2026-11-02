@@ -15,6 +15,7 @@ namespace OOP_PROJECT.ADMIN
 {
     internal class SERVICE
     {
+
         TrainModel trainmodel = new TrainModel();
         USERREPOSITORY _userrepo = new USERREPOSITORY();
         TrainRepository _trainrepo = new TrainRepository();

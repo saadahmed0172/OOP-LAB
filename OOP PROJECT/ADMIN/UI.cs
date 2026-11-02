@@ -180,6 +180,7 @@ namespace OOP_PROJECT.ADMIN
             List<USERMODEL> UD = _service.readuserdata();
             foreach(USERMODEL user in UD)
             {
+
                 Console.WriteLine(user.ToString());
             }
         }
