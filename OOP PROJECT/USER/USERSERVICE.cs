@@ -28,18 +28,18 @@ namespace OOP_PROJECT.USER
         }
         public void Booktrain(string train) {
             List <TrainModel> data = _trainrepo.readalldata();
-            int count = -1;
+           
             foreach (TrainModel all in data)
             {
 
-                count += 1;
+               
                 if(all.trainName == train)
                 {
 
                     int seats = int.Parse(all.seats);
                     seats = seats - 1;
                     all.seats = seats.ToString();
-                    data[count] = all;
+                    
                     break;
 
                 }

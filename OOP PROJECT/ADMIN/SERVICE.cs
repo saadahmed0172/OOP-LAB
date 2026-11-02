@@ -33,7 +33,7 @@ namespace OOP_PROJECT.ADMIN
             foreach (TrainModel train in all)
             {
                 if (train.trainName == name) {
-                    all.RemoveAt(count);
+                    all.RemoveAt(count); 
 
                     _trainrepo.savealldataintofile(all);
                     return true;
