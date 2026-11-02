@@ -15,6 +15,13 @@ namespace OOP_PROJECT.ADMIN
 
 
 
+        //public MODEL(MODEL model)
+        //{
+        //    name = model.name;
+        //}
+        //MODEL W = new MODEL(a,b,c,D);
+        //MODEL S = new MODEL(W);
+
     public MODEL() { }
        
     

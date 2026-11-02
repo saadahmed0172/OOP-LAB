@@ -25,7 +25,7 @@ namespace OOP_PROJECT.USER
             Console.WriteLine("---------------------------");
             Console.WriteLine("---------------------------");
             Console.WriteLine("          USER MENU        ");
-            Console.WriteLine("1.VIEW TRAIN");
+            Console.WriteLine("1.range filter");
             Console.WriteLine("2.BOOK TRAIN");
             Console.WriteLine("3.SEARCH TRAIN");
             Console.WriteLine("4.ADD USER INFO");
@@ -43,7 +43,8 @@ namespace OOP_PROJECT.USER
 
             if (opt == "1")
             {
-                viewtrain();
+
+                ra();
 
             }
             else if (opt == "2")
@@ -111,6 +112,20 @@ namespace OOP_PROJECT.USER
             
 
 
+        }
+        public void ra()
+        {
+            Console.WriteLine("enter a");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter a");
+            int b = int.Parse(Console.ReadLine());
+            userservice.ran(a, b);
+            
+
+        }
+        public void cat()
+        {
+           
         }
     }
 }
